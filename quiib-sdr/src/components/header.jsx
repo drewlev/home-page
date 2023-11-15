@@ -10,7 +10,7 @@ const photos = [photo1, photo2, photo3, photo4]
 
 
 function Header() {
-    const words = ["Skills","Connections","Oportunites","Jobs",]
+    const words = ["Closing","Earning","Selling"]
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
@@ -24,9 +24,17 @@ function Header() {
 
     return (
         <div className="header">
-            <h1>It’s Time to Gain</h1>
+            <h1>It’s Time to Start</h1>
             <h1 className="word">{words[currentIndex]}</h1>
-            <h2>NO EXPERIENCE OR DEGREE REQUIRED</h2>
+            <h2>We hunt leads & crush your outbound cold emails. <br/>
+                Accelerate customer insights and book more meetings.
+                Book A Meeting
+            </h2>
+            <div className='auth-buttons'>
+                    <a href="/apply" className='clear-button button'>Sign In</a>
+                    <a href="/apply" className='dark-button button' >Apply</a>
+            </div>
+
             
             
         </div>

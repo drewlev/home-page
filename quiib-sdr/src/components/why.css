@@ -1,31 +1,27 @@
-.whygrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: var(--main-div-width);
-    justify-items: start; 
-    gap: 60px 0px;
-    justify-items: start; 
-    
+.process-section {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.whygrid > *:nth-child(2n) {
-    justify-self: end; 
-}
-
-
-.whypage{
+.process-grid {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
-.quiib-text {
-    height: 40px;
-    margin-bottom: -7px;
+.process-box {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
-.quiib-text {
-    margin-left: 10px; /* or any other styles */
+.icon-container {
+    height: 100px; /* Set as needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
+/* Add more styling as needed to match your design */
