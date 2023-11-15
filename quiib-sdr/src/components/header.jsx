@@ -28,19 +28,7 @@ function Header() {
             <h1 className="word">{words[currentIndex]}</h1>
             <h2>NO EXPERIENCE OR DEGREE REQUIRED</h2>
             
-            <div className="cohort-gradient">
-                <div className="cohort-photos">
-                    {photos.map((photo, id) => 
-                        <div key={id} className="circle-container">
-                            <img src={photo}></img>
-                        </div>   
-                    )}
-                </div>
-
-
-
-                <a href="/apply" className="join-cohort button">Join the Cohort</a>
-            </div>
+            
         </div>
 
     )
