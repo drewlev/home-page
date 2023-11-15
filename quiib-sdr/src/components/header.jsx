@@ -6,7 +6,7 @@ import "./header.css"
 import { useState, useEffect } from "react"
 
 const photos = [photo1, photo2, photo3, photo4]
-
+// ccc
 
 
 function Header() {
