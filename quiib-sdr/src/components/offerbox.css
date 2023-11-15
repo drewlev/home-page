@@ -1,0 +1,38 @@
+.offerbox img{
+    width: 100px;
+}
+
+.offerbox{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    width: 250px; /* Or any desired height you prefer */
+    border-radius: 30px;
+}
+
+.offerbox img {
+    width: 100%; /* Make the image span the entire width of the .offerbox */
+    height: 150px;
+    object-fit: cover; /* Ensure the image covers the available space without distortion */
+    border-top-left-radius: 30px; /* Top-left corner */
+    border-top-right-radius: 30px; /* Top-right corner */
+}
+
+.offerbox h2, .offerbox p {
+    margin: 0; /* Reset default margins, adjust as needed */
+}
+
+.offerbox h2 {
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+    padding: 5px;
+}
+.offerbox p{
+    color: black;
+}
+
+.offerbox p {
+    padding: 20px; 
+    padding-top: 0px;
+}

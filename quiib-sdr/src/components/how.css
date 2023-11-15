@@ -1,0 +1,36 @@
+@import './global.css'; 
+
+.how img {
+    height: 200px;
+}
+
+.how {
+    display: flex;
+    color: white;
+    font-family: 'Inter';
+    flex-direction: column;
+    align-items: center;  /* This centers children horizontally */
+  
+}
+
+.how h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.how-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: var(--main-div-width);;
+}
+
+.how-grid > *:last-child {
+    justify-self: end;
+}
+
+
+.how-grid p{
+    width: auto;
+}
