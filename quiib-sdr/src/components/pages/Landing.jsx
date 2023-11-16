@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Nav from '../nav'
-import Header from '../header'
-import Why from '../why'
-import HowItWorks from "../how"
+import Header from '../main-components/header'
+import TheOfferings from "../main-components/TheOfferings"
+import Methodology from "../main-components/Methodology"
 import "./Landing.css"
 
 
@@ -14,8 +14,8 @@ function Landing() {
 
       <Nav/>
       <Header/>
-      <HowItWorks/>
-      <Why/>
+      <TheOfferings/>
+      <Methodology/>
       <div className='light-box'>   
       </div>
     </div>

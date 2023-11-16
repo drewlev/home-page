@@ -3,6 +3,7 @@
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+    justify-items: center;
 }
 
 .how h1 {
@@ -57,13 +58,12 @@
 }
 
 .info-frame-container ul li {
-    color: #833ab4; /* Purple color similar to the one in the screenshot */
+    /* color: #833ab4;  */
     padding: 5px 0;
 }
 
 .info-frame-container ul li::before {
-    content: '• ';
-    color: #833ab4; /* Purple color for the bullet points */
+    content: '- ';
     font-size: 1.5em; /* Adjust size as needed */
     vertical-align: middle;
     margin-right: 8px;
