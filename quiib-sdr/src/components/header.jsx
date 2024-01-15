@@ -39,7 +39,7 @@ function Header() {
 
 
 
-                <a href="/apply" className="join-cohort button">Join the Cohort</a>
+                <a href="https://cal.com/drew-levine-kkooiw/30min?date=2024-01-15&month=2024-01" className="join-cohort button">Join the Cohort</a>
             </div>
         </div>
 
