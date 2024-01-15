@@ -1,5 +1,5 @@
 import Nav from "../nav"
-import ApplyForm from '../applyForm'
+import ApplyForm from '../applyform'
 import "./Landing.css"
 import  "./apply.css"
 
